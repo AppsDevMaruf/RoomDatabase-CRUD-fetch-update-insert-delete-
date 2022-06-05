@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomeFragment">
+
+    <EditText
+        android:id="@+id/nameEt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/numberET"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="PhoneNumber"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+    <Button
+       android:id="@+id/addBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Add Data"/>
+
+</LinearLayout>
